@@ -1624,6 +1624,10 @@ right: 0;
 }
 
 @media screen and (max-width: 768px) {
+.web-name{
+  margin-left: 25px;
+  margin-top: 6px;
+}
 .timeline::before {
   left: 50px;
 }
