@@ -1627,6 +1627,16 @@ right: 0;
 .timeline::before {
   left: 50px;
 }
+.timeline{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.container{
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .timeline .timeline-img {
   left: 50px;
 }
