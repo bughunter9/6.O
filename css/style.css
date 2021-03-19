@@ -355,7 +355,7 @@ h6 {
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 15px 15px 0 0;
+  margin: 15px 0px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -363,6 +363,7 @@ h6 {
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
+  max-width: 96.7%;
 }
 
 #mobile-nav-toggle i {
@@ -380,7 +381,7 @@ h6 {
   background: rgba(6, 12, 34, 0.9);
   left: -260px;
   width: 260px;
-  overflow-y: auto;
+  overflow-y: none;
   transition: 0.4s;
 }
 
@@ -398,7 +399,7 @@ h6 {
   color: #fff;
   font-size: 17px;
   overflow: hidden;
-  padding: 10px 22px 10px 15px;
+  padding: 10px 20px 10px 15px;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -1626,7 +1627,7 @@ right: 0;
 @media screen and (max-width: 768px) {
 
 #header {
-  width: 95%;
+  width: 96.9%;
 }
 /* .container{
   width: 90%;
@@ -1689,6 +1690,7 @@ right: 0;
   padding-left: 10px;
   margin-right: 10px;
   margin-left: 10px;
+  max-width: 95%;
 }
 .footer-info{
   text-align: center;
@@ -1696,6 +1698,7 @@ right: 0;
   padding-left: 10px;
   margin-right: 10px;
   margin-left: 10px;
+  max-width: 95%;
 }
 .con-inf{
   text-align: center;
@@ -1712,6 +1715,36 @@ right: 0;
   padding-left: 10px;
   margin-right: 6px;
   margin-left: 6px;
+  max-width: 95%;
+}
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #f82249;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  right: 20px;
+  bottom: 15px;
+  transition: background 0.5s ease-in-out;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  padding-top: 6px;
+}
+
+.back-to-top:focus {
+  background: #e0072f;
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: #e0072f;
+  color: #fff;
 }
 }
 
