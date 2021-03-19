@@ -1626,9 +1626,11 @@ right: 0;
 @media screen and (max-width: 768px) {
 
 #header {
-  width: 100%;
-  max-width: 100%;
+  width: 95%;
 }
+/* .container{
+  width: 90%;
+} */
 
 #speakers .row{
   width: 104%;
