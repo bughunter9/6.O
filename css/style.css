@@ -1683,9 +1683,33 @@ right: 0;
 
 .footer-contact{
   text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .footer-info{
   text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.con-inf{
+  text-align: center;
+}
+.con-info{
+  text-align: center;
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+.footer-links{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 6px;
+  margin-left: 6px;
 }
 }
 
