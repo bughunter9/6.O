@@ -147,6 +147,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+
 }
 
 #header.header-scrolled,
@@ -355,7 +356,7 @@ h6 {
   right: 0;
   top: 0;
   z-index: 999;
-  margin: 15px 0px 0 0;
+  margin: 15px 15px 0 0;
   border: 0;
   background: none;
   font-size: 24px;
@@ -363,7 +364,6 @@ h6 {
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
-  max-width: 96.7%;
 }
 
 #mobile-nav-toggle i {
@@ -381,7 +381,7 @@ h6 {
   background: rgba(6, 12, 34, 0.9);
   left: -260px;
   width: 260px;
-  overflow-y: none;
+  overflow-y: auto;
   transition: 0.4s;
 }
 
@@ -399,7 +399,7 @@ h6 {
   color: #fff;
   font-size: 17px;
   overflow: hidden;
-  padding: 10px 20px 10px 15px;
+  padding: 10px 22px 10px 15px;
   position: relative;
   text-decoration: none;
   width: 100%;
@@ -1607,12 +1607,6 @@ bottom: 5px;
 left: 20px;
 }
 
-/* blockquote {
-margin-top: 30px;
-color: #757575;
-border-left-color: #3F51B5;
-padding: 0 20px;
-} */
 
 .date {
 background: #FF4081;
@@ -1626,41 +1620,49 @@ right: 0;
 
 @media screen and (max-width: 768px) {
 
-#header {
+/* #header {
   width: 96.9%;
-}
+} */
 /* .container{
   width: 90%;
 } */
 
-#speakers .row{
+/* #speakers .row{
   width: 104%;
+} */
+.web-name, .social-links{
+  text-align: center;
 }
 
-.col-lg-4,.col-md-6{
+/* .col-lg-4,.col-md-6{
   min-height: 1px;
   padding-right: 0px;
   padding-left: 0px;
-}
+} */
 
 
-.web-name{
+/* .web-name{
   margin-left: 25px;
   margin-top: 6px;
-}
+} */
 .timeline::before {
   left: 50px;
 }
-.timeline{
-  margin-right: 0px;
-  margin-left: 0px;
-}
-.container{
+ .timeline{
   margin-right: 0px;
   margin-left: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
+.con-inf,.con-info{
+  text-align: center;
+}
+/* .container{
+  margin-right: 0px;
+  margin-left: 0px;  THIS COMMENTED CODE WILL SCREW THE WHOLE WEBSITE
+  padding-left: 0px;
+  padding-right: 0px;
+}  */
 .timeline .timeline-img {
   left: 50px;
 }
@@ -1684,7 +1686,7 @@ right: 0;
   border-color: transparent #f5f5f5 transparent transparent;
 }
 
-.footer-contact{
+/* .footer-contact{
   text-align: center;
   padding-right: 10px;
   padding-left: 10px;
@@ -1716,8 +1718,8 @@ right: 0;
   margin-right: 6px;
   margin-left: 6px;
   max-width: 95%;
-}
-.back-to-top {
+} */
+/* .back-to-top {
   position: fixed;
   display: none;
   background: #f82249;
@@ -1745,7 +1747,7 @@ right: 0;
 .back-to-top:hover {
   background: #e0072f;
   color: #fff;
-}
+} */
 }
 
 .stron {
