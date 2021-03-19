@@ -917,7 +917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
-  overflow: visible;
+  overflow: hidden;
 }
 
 #gallery .gallery-carousel .center {
@@ -1624,11 +1624,23 @@ right: 0;
 }
 
 @media screen and (max-width: 768px) {
- 
+
+#header {
+  width: 100%;
+  max-width: 100%;
+}
+
+#speakers .row{
+  width: 104%;
+}
+
 .col-lg-4,.col-md-6{
-  padding-left: 0px;
+  min-height: 1px;
   padding-right: 0px;
-} 
+  padding-left: 0px;
+}
+
+
 .web-name{
   margin-left: 25px;
   margin-top: 6px;
